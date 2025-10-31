@@ -2,8 +2,8 @@
 import sys
 from pathlib import Path
 from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QScrollArea, QPushButton, QSizePolicy, QMainWindow
-from PySide6.QtCore import Qt, Signal, QEvent # Import QEvent for eventFilter
-from PySide6.QtGui import QMouseEvent # Import QMouseEvent for eventFilter
+from PySide6.QtCore import Qt, Signal, QEvent
+from PySide6.QtGui import QMouseEvent
 from enum import Enum
 
 class DropMode(Enum):
